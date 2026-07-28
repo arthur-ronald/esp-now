@@ -1,0 +1,8 @@
+Command: ninja all
+[1/4] Performing build step for 'bootloader'
+[1/1] cd /home/artu/esp/projects/esp_now/build/bootloader && /home/artu/.espressif/python_env/idf6.0_py3.14_env/bin/python /home/artu/.espressif/v6.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/artu/esp/projects/esp_now/build/bootloader/bootloader.bin
+Bootloader binary size 0x5240 bytes. 0x2dc0 bytes (36%) free.
+[2/4] cd /home/artu/esp/projects/esp_now/build && /home/artu/.espressif/python_env/idf6.0_py3.14_env/bin/python /home/artu/.espressif/v6.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/artu/esp/projects/esp_now/build/partition_table/partition-table.bin /home/artu/esp/projects/esp_now/build/esp_now.bin
+esp_now.bin binary size 0x28050 bytes. Smallest app partition is 0x100000 bytes. 0xd7fb0 bytes (84%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'

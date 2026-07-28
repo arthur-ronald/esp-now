@@ -1,0 +1,2 @@
+source /home/artu/esp/projects/esp_now/build/bootloader/gdbinit/symbols
+source /home/artu/esp/projects/esp_now/build/bootloader/gdbinit/connect
