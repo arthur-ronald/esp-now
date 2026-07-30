@@ -1,4 +1,5 @@
 "-specs=/home/artu/esp/projects/esp_now/build/bootloader/specs/picolibc.specs"
+-Wno-frame-address
 -mlongcalls
 -fno-builtin-memcpy
 -fno-builtin-memset
